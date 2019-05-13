@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>საოცნებო სახლი</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main_css.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css.css" />
+    <link rel="icon" type="text/css" media="screen" href="photo/logo.png" />
+  </head>
+  <body>
+    <div id="qartuli">
+      <div class="menu">
+        <a href="index.html"> <img class="img1" src="photo/logo.png" alt="logo"> </a>
+        <a href="indexEn.html" target="_self" class="language english"> <img class="icon" src="photo/en.jpg" alt="en"> </a>
+        <a href="index.html" target="_self" class="language georgian"  style="background-color: #f2f2f2;"> <img class="icon" src="photo/geo.jpg" alt="ge"> </a>
+        <div class="avtorizacia_registracia">
+          <a href="www/autorizacia/autorizacia.html"><img class="img1 move" src="photo/logo_account.png" alt="" style="left:20px;"></a>
+        </div>
+        <div class="menu_right">
+          <a href="index.html" class="qvemo">მთავარი</a>
+          <a href="#" class="qvemo">ჩემი აგენტი</a>
+          <div class="dropdown up">
+            <button class="dropbtn">უძრავი ქონება
+            </button>
+          <div class="dropdown-content">
+            <a href="#">სახლი</a>
+            <a href="#">ბინა</a>
+            <a href="#">აგარაკი</a>
+            <a href="#">კომერციული ფართი</a>
+            <a href="#">მიწის ნაკვეთი</a>
+          </div>
+          </div>
+          <div class="dropdown1 up">
+            <button class="dropbtn1">ჩვენ შესახებ
+            </button>
+          <div class="dropdown-content1">
+            <a href="www/contact/contact.html">კონტაქტი</a>
+            <a href="www/partniors/partniors.html">პარტნიორები</a>
+            <a href="#">აგენტი</a>
+          </div>
+          </div>
+        </div>
+      </div>
+
+
+    <div class="body">
+      <div class="slaidi">
+        <img class="slidebi" src="photo/slaidi/1.jpg">
+        <img class="slidebi" src="photo/slaidi/2.jpg">
+        <img class="slidebi" src="photo/slaidi/3.jpg">
+        <img class="slidebi" src="photo/slaidi/4.jpg">
+        <div class="slide-left change_picture" onclick="plusDivs(-1)"><span class="symbol">&#10094;</span></div>
+        <div class="slide-right change_picture" onclick="plusDivs(1)"><span class="symbol">&#10095;</span></div>
+       </div>
+
+      <div class="search">
+         <div class="search_marcxena">
+           <div class="search_variantebi">
+             <p>გარიგების ტიპი</p>
+             <select>
+               <option value="yvela_garigeba">ყველა</option>
+               <option value="iyideba">იყიდება</option>
+               <option value="qiravdeba">ქირავდება</option>
+               <option value="giravdeba">გირავდება</option>
+               <option value="qiravdeba_dgiurad">ქირავდება დღიურად</option>
+             </select>
+           </div>
+           <div class="search_variantebi">
+             <p>უძრავი ქონების ტიპი</p>
+             <select>
+               <option value="yvela_udzravi">ყველა</option>
+               <option value="saxli">სახლი</option>
+               <option value="bina">ბინა</option>
+               <option value="komerciulk">კომერციული ფართი</option>
+               <option value="agaraki">აგარაკი</option>
+               <option value="miwis_nakveti">მიწის ნაკვეთი</option>
+             </select>
+           </div>
+           <div class="search_variantebi">
+             <p>სტატუსი</p>
+             <select>
+               <option value="yvela_statusi">ყველა</option>
+               <option value="saxli">ახალი აშენებული</option>
+               <option value="bina">ძველი აშენებული</option>
+               <option value="komerciulk">ევრორემონტი</option>
+               <option value="miwis_nakveti">მშენებარე</option>
+             </select>
+           </div>
+         </div>
+
+         <div class="search_shua">
+           <div class="search_variantebi">
+             <p>ქალაქი</p>
+             <select>
+               <option value="yvela_qalaqi">ყველა</option>
+               <option value="tbilisi">თბილისი</option>
+               <option value="qutaisi">ქუთაისი</option>
+               <option value="batumi">ბათუმი</option>
+               <option value="rustavi">რუსთავი</option>
+               <option value="sxva">სხვა</option>
+             </select>
+           </div>
+           <div class="search_variantebi">
+             <p>რაიონი</p>
+             <select>
+               <option value="yvela_raioni">ყველა</option>
+               <option value="gldani">გლდანი</option>
+               <option value="didube">დიდუბე</option>
+               <option value="vake">ვაკე</option>
+               <option value="isani">ისანი</option>
+               <option value="krwanisi">კრწანისი</option>
+               <option value="mtawminda">მთაწმინდა</option>
+               <option value="nadzaladevi">ნაძალადევი</option>
+               <option value="saburtalo">საბურთალო</option>
+               <option value="samgori">სამგორი</option>
+               <option value="chugureti">ჩუღურეთი</option>
+             </select>
+           </div>
+           <div class="search_variantebi">
+             <p>უბანი</p>
+             <select>
+               <option value="yvela_ubani">ყველა</option>
+             </select>
+           </div>
+         </div>
+
+         <div class="search_marjvena">
+           <div class="search_variantebi">
+             <p>ოთახი</p>
+             <select>
+               <option value="yvela_otaxi">ყველა</option>
+               <option value="otaxi_1">1</option>
+               <option value="otaxi_2">2</option>
+               <option value="otaxi_3">3</option>
+               <option value="otaxi_4">4</option>
+               <option value="otaxi_5">4+</option>
+             </select>
+           </div>
+           <div class="search_variantebi">
+             <p>ფასი</p>
+             <input type="number" class="search_money" placeholder="დან">
+             <input type="number" class="search_money" placeholder="მდე">
+             <select class="search_money_type">
+               <option value="yvela_udzravi">ლარი</option>
+               <option value="saxli">დოლარი</option>
+               <option value="bina">ევრო</option>
+             </select>
+           </div>
+           <div class="search_dzebna">
+             <button type="button" name="button">ძებნა</button>
+           </div>
+         </div>
+       </div>
+
+
+
+
+
+
+
+
+
+      <div class="popular">
+        <div class="satauri">
+          <h3>პოპულარული</h3>
+        </div>
+
+
+        <div class="variantebi">
+          <a href="#">
+            <div class="varianti">
+              <img src="photo/house_photos/1.jpg" alt="bina">
+              <p>
+                <span class="red">ქირავდება</span> ბინა <br>
+                <img class="logo" src="photo/lari.png" alt="logo"> 1500 ლარი <br>
+                <img class="logo" src="photo/address.png" alt="logo"> საბურთალო,თბილისი
+              </p>
+              <div class="favoriti"></div>
+            </div>
+          </a>
+
+
+          <a href="#">
+          <div class="varianti">
+              <img src="photo/house_photos/2.jpg" alt="bina">
+              <p>
+                <span class="red">ქირავდება დღიურად</span> ბინა <br>
+                <img class="logo" src="photo/lari.png" alt="logo"> 100 ლარი <br>
+                <img class="logo" src="photo/address.png" alt="logo"> ვარკეთილი,თბილისი
+              </p>
+              <div class="favoriti"></div>
+          </div>
+          </a>
+
+          <a href="#">
+          <div class="varianti">
+            <img src="photo/house_photos/3.jpg" alt="bina">
+            <p>
+              <span class="red">იყიდება</span> ბინა <br>
+              <img class="logo" src="photo/lari.png" alt="logo"> 283500 ლარი <br>
+              <img class="logo" src="photo/address.png" alt="logo"> ვაკე,თბილისი
+            </p>
+            <div class="favoriti"></div>
+          </div>
+          </a>
+
+          <a href="#">
+          <div class="varianti">
+            <img src="photo/house_photos/4.jpg" alt="bina">
+            <p>
+              <span class="red">ქირავდება</span> ბინა <br>
+              <img class="logo" src="photo/lari.png" alt="logo"> 1380 ლარი <br>
+              <img class="logo" src="photo/address.png" alt="logo"> გლდანი,თბილისი
+            </p>
+            <div class="favoriti"></div>
+          </div>
+          </a>
+
+          <a href="#">
+          <div class="varianti">
+            <img src="photo/house_photos/5.jpg" alt="bina">
+            <p>
+              <span class="red">იყიდება</span> ბინა <br>
+              <img class="logo" src="photo/lari.png" alt="logo"> 221610 ლარი <br>
+              <img class="logo" src="photo/address.png" alt="logo"> ვაკე,თბილისი
+            </p>
+            <div class="favoriti"></div>
+          </div>
+          </a>
+
+          <a href="#">
+          <div class="varianti">
+              <img src="photo/house_photos/6.jpg" alt="bina">
+              <p>
+                <span class="red">იყიდება</span> სახლი <br>
+                <img class="logo" src="photo/lari.png" alt="logo"> 611799 ლარი <br>
+                <img class="logo" src="photo/address.png" alt="logo"> სოფ. დიღომი,თბილისი
+              </p>
+              <div class="favoriti"></div>
+          </div>
+          </a>
+
+          <a href="#">
+            <div class="varianti">
+              <img src="photo/house_photos/7.jpg" alt="bina">
+              <p>
+                <span class="red">იყიდება</span> სახლი <br>
+                <img class="logo" src="photo/lari.png" alt="logo"> 1333500 ლარი <br>
+                <img class="logo" src="photo/address.png" alt="logo"> კრწანისი,თბილისი
+              </p>
+              <div class="favoriti"></div>
+            </div>
+          </a>
+
+          <a href="#">
+          <div class="varianti">
+            <img src="photo/house_photos/8.jpg" alt="bina">
+            <p>
+              <span class="red">იყიდება</span> აგარაკი <br>
+              <img class="logo" src="photo/lari.png" alt="logo"> 1466850 ლარი <br>
+              <img class="logo" src="photo/address.png" alt="logo"> თეთრიწყარო
+            </p>
+            <div class="favoriti"></div>
+          </div>
+          </a>
+
+          <a href="#">
+          <div class="varianti">
+            <img src="photo/house_photos/9.jpg" alt="bina">
+            <p>
+              <span class="red">ქირავდება</span> კომერც. ფართი <br>
+              <img class="logo" src="photo/lari.png" alt="logo"> 6134 ლარი <br>
+              <img class="logo" src="photo/address.png" alt="logo"> ჩუღურეთი,თბილისი
+            </p>
+            <div class="favoriti"></div>
+          </div>
+          </a>
+
+          <a href="#">
+            <div class="varianti">
+              <img style="height:240px;width:100%;" src="photo/reklama/1.jpg" id="reklama1">
+            </div>
+          </a>
+
+          <a href="#">
+          <div class="varianti">
+            <img src="photo/house_photos/10.jpg" alt="bina">
+            <p>
+              <span class="red">ქირავდება</span> ბინა <br>
+              <img class="logo" src="photo/lari.png" alt="logo"> 589 ლარი <br>
+              <img class="logo" src="photo/address.png" alt="logo">ისანი,თბილისი
+            </p>
+            <div class="favoriti"></div>
+          </div>
+          </a>
+
+          <a href="#">
+          <div class="varianti">
+            <img src="photo/house_photos/11.jpg" alt="bina">
+            <p>
+              <span class="red">ქირავდება დღიურად</span> ბინა <br>
+              <img class="logo" src="photo/lari.png" alt="logo"> 140 ლარი <br>
+              <img class="logo" src="photo/address.png" alt="logo"> ვაკე,თბილისი
+            </p>
+            <div class="favoriti"></div>
+          </div>
+          </a>
+
+          <a href="#">
+          <div class="varianti">
+            <img src="photo/house_photos/12.jpg" alt="bina">
+            <p>
+              <span class="red">ქირავდება</span> კომერც. ფართი <br>
+              <img class="logo" src="photo/lari.png" alt="logo"> 6200 ლარი <br>
+              <img class="logo" src="photo/address.png" alt="logo"> საბურთალო,თბილისი
+            </p>
+            <div class="favoriti"></div>
+          </div>
+          </a>
+
+          <a href="#">
+          <div class="varianti">
+            <img src="photo/house_photos/13.jpg" alt="bina">
+            <p>
+              <span class="red">იყიდება</span> ბინა <br>
+              <img class="logo" src="photo/lari.png" alt="logo"> 166000 ლარი <br>
+              <img class="logo" src="photo/address.png" alt="logo"> გლდანი,თბილისი
+            </p>
+            <div class="favoriti"></div>
+          </div>
+          </a>
+
+          <a href="#">
+          <div class="varianti">
+            <img src="photo/house_photos/14.jpg" alt="bina">
+            <p>
+              <span class="red">ქირავდება</span> ბინა <br>
+              <img class="logo" src="photo/lari.png" alt="logo"> 1300 ლარი <br>
+              <img class="logo" src="photo/address.png" alt="logo"> დიდუბე,თბილისი
+            </p>
+            <div class="favoriti"></div>
+          </div>
+          </a>
+
+          <a href="#">
+          <div class="varianti">
+            <img src="photo/house_photos/15.jpg" alt="bina">
+            <p>
+              <span class="red">იყიდება</span> სახლი <br>
+              <img class="logo" src="photo/lari.png" alt="logo"> 324000 ლარი <br>
+              <img class="logo" src="photo/address.png" alt="logo"> გორაშვილი,ქობულეთი
+            </p>
+            <div class="favoriti"></div>
+          </div>
+          </a>
+
+          <a href="#">
+          <div class="varianti">
+            <img src="photo/house_photos/16.jpg" alt="bina">
+            <p>
+              <span class="red">იყიდება</span> აგარაკი <br>
+              <img class="logo" src="photo/lari.png" alt="logo"> 400000 ლარი <br>
+              <img class="logo" src="photo/address.png" alt="logo"> ბაზალეთის,დუშეთი
+            </p>
+            <div class="favoriti"></div>
+          </div>
+          </a>
+
+          <a href="#">
+          <div class="varianti">
+            <img src="photo/house_photos/17.jpg" alt="bina">
+            <p>
+              <span class="red">იყიდება</span> ბინა <br>
+              <img class="logo" src="photo/lari.png" alt="logo"> 159600 ლარი <br>
+              <img class="logo" src="photo/address.png" alt="logo"> ვაკე,თბილისი
+            </p>
+            <div class="favoriti"></div>
+          </div>
+          </a>
+
+          <a href="#">
+          <div class="varianti">
+            <img src="photo/house_photos/18.jpg" alt="bina">
+            <p>
+              <span class="red">იყიდება</span> მიწის ნაკვეთი <br>
+              <img class="logo" src="photo/lari.png" alt="logo"> 24000 ლარი <br>
+              <img class="logo" src="photo/address.png" alt="logo"> გარდაბანი
+            </p>
+            <div class="favoriti"></div>
+          </div>
+          </a>
+
+          <a href="#">
+          <div class="varianti">
+            <img src="photo/house_photos/19.jpg" alt="bina">
+            <p>
+              <span class="red">ქირავდება</span> აგარაკი<br>
+              <img class="logo" src="photo/lari.png" alt="logo"> 2000 ლარი <br>
+              <img class="logo" src="photo/address.png" alt="logo"> ბაკურიანი
+            </p>
+            <div class="favoriti"></div>
+          </div>
+          </a>
+
+          <a href="#">
+            <div class="varianti">
+              <img style="height:240px;width:100%;" src="photo/reklama/2.jpg" id="reklama2">
+            </div>
+          </a>
+
+          <a href="#">
+          <div class="varianti">
+              <img src="photo/house_photos/2.jpg" alt="bina">
+              <p>
+                <span class="red">ქირავდება დღიურად</span> ბინა <br>
+                <img class="logo" src="photo/lari.png" alt="logo"> 100 ლარი <br>
+                <img class="logo" src="photo/address.png" alt="logo"> ვარკეთილი,თბილისი
+              </p>
+              <div class="favoriti"></div>
+          </div>
+          </a>
+
+          <a href="#">
+          <div class="varianti">
+            <img src="photo/house_photos/20.jpg" alt="bina">
+            <p>
+              <span class="red">იყიდება</span> სახლი <br>
+              <img class="logo" src="photo/lari.png" alt="logo"> 439000 ლარი <br>
+              <img class="logo" src="photo/address.png" alt="logo"> დიდგორი,თბილისი
+            </p>
+            <div class="favoriti"></div>
+          </div>
+          </a>
+
+
+
+
+
+
+        </div>
+         </div>
+
+
+
+
+
+
+
+
+
+
+
+      <div class="agent" id="agent_uncover">
+        <div class="margin">
+          <a href="#">
+            <div class="button">
+              აგენტის ძებნა
+            </div>
+          </a>
+          <!-- <a href="#"> -->
+            <div class="button button2" onclick="agentCover()">
+              ვრცლად
+            </div>
+          <!-- </a> -->
+        </div>
+      </div>
+
+      <div class="agent_covered" id="agent_cover" style="display: none;">
+        <div class="black_div">
+          </div>
+        <div class="conteiner">
+          <div class="content">
+            <h3>უძრავი ქონების აგენტი</h3>
+            <p>უძრავი ქონების აგენტი დაგეხმარებათ თქვენი ოცნების სახლის პოვნაში.თუ ჯერ კიდევ არ გყავთ აგენტი შესაძლოა აარჩიოთ ქვემოთ მოცემულ ბმულზე.</p>
+            <a href="www/about us/about_us.html">დაწვრილებით</a>
+
+          </div>
+          <a href="#">
+          <div class="button">
+            აგენტის ძებნა
+          </div>
+          </a>
+          <div class="button button2" onclick="agentUnCover()">
+            უკან დაბრუნება
+          </div>
+        </div>
+
+
+      </div>
+
+
+     </div>
+
+
+
+
+    <div class="foot">
+
+      <div class="margin">
+        <div class="foot_menu">
+          <p>
+            <b>მენიუ</b><br><br>
+            <a href="index.html">მთავარი</a><br>
+            <a href="#">ჩემი აგენტი</a><br>
+            <a href="www/about us/about_us.html">ჩვენს შესახებ</a><br>
+            <a href="www/dzebna/dzebna.html">უძრავი ქონება</a>
+          </p>
+        </div>
+        <hr width="1" size="150" class="foot_xazi">
+        <div class="foot_menu ">
+          <p>
+            <b>უძრავი ქონების ტიპი</b><br><br>
+            <a href="#">ბინები</a><br>
+            <a href="#">სახლები და აგარაკები</a><br>
+            <a href="#">კომერციული ფართები</a><br>
+            <a href="#">აგარაკები</a><br>
+            <a href="#">მიწის ნაკვეთები</a>
+          </p>
+        </div>
+        <hr width="1" size="150" class="foot_xazi">
+        <div class="foot_menu">
+          <p>
+            <b>ჩვენ შესახებ</b><br><br>
+            <a href="www/contact/contact.html">კონტაქტი</a><br>
+            <a href="www/partniors/partniors.html">პარტნიორები</a><br>
+            <a href="#">აგენტები</a>
+          </p>
+        </div>
+        <hr width="1" size="150" class="foot_xazi">
+        <div class="foot_menu">
+          <p>
+            <b>სოციალური ქსელები</b><br><br>
+            <a href="#">Facebook</a><br>
+            <a href="#">Instagram</a><br>
+            <a href="#">Linkedin</a><br>
+            <a href="#">Google+</a>
+          </p>
+        </div>
+
+      </div>
+    </div>
+    </div>
+
+
+
+
+
+
+
+    <script src="js.js"></script>
+
+  </body>
+</html>

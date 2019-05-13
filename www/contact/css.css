@@ -1,0 +1,49 @@
+.body{
+  width: 100%;
+  height: 800px;
+  box-sizing: border-box;
+  padding: 30px;
+}
+
+.body h3{
+  text-align: center;
+  color: #1c1452;
+}
+
+.body .body_left{
+  width: 40%;
+  float: left;
+}
+
+.body .body_right{
+  width: 60%;
+  height: 400px;
+  float: left;
+}
+
+.body .body_left .letterform{
+  display: none;
+  width: 70%;
+  float: left;
+}
+
+.body .body_left .letterform input{
+  height: 25px;
+  width: 200px;
+  border-radius: 5px;
+  box-sizing: border-box;
+  padding: 5px;
+  margin-top: 10px;
+  color: grey;
+}
+
+.body .wrong{
+  position: relative;
+  bottom: 10px;
+  font-size: 10px;
+  color: #ff1421;
+}
+
+.down{
+  margin-top: 20px;
+}

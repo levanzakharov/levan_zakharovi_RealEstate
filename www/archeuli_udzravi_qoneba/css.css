@@ -1,0 +1,503 @@
+body{
+  background-color: #f2f2f2;
+  min-height: 700px;
+  margin: 0px;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+
+.body{
+  width: 100%;
+  min-height: 1000px;
+  box-sizing: border-box;
+  padding: 50px;
+}
+
+.body .container_zeda{
+  width: 90%;
+  min-height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
+  background-color: white;
+  padding: 0px;
+  margin-bottom: 20px;
+}
+
+.body .container_zeda .left{
+  width: 70%;
+  min-height: 600px;
+  box-sizing: border-box;
+  padding: 10px;
+  float: left;
+}
+
+.body .container_zeda .left .monacemebi{
+  width: 100%;
+  min-height: 100px;
+  box-sizing: border-box;
+  padding: 10px;
+  float: left;
+  font-size: 16px;
+  color: #0066ff;
+}
+
+.body .container_zeda .left .monacemebi .date{
+  width: 50%;
+  min-height: 80px;
+  box-sizing: border-box;
+  padding: 10px;
+  float: left;
+  font-size: 16px;
+  color: #0066ff;
+}
+
+.body .container_zeda .left .monacemebi .tanxa{
+  width: 50%;
+  min-height: 80px;
+  box-sizing: border-box;
+  padding: 10px;
+  float: left;
+  text-align: right;
+  font-size: 16px;
+  color: #0066ff;
+}
+
+.body .blue{
+  color: #1c1452;
+  font-size: 18px;
+}
+
+.font20{
+  font-size: 18px;
+  position: relative;
+  bottom: 3px;
+}
+
+.body .container_zeda .left .monacemebi img{
+  width: 20px;
+  height: 20px;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  padding: 0px;
+}
+
+.container .mySlides img {
+  width: 100%;
+  height: 450px;
+  box-sizing: border-box;
+  padding: 0px;
+}
+
+.mySlides {
+  display: none;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+.prev,
+.next {
+  cursor: pointer;
+  position: relative;
+  bottom: 270px;
+  width: auto;
+  padding: 16px;
+  margin-top: 50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+.next {
+  left: 674px;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 150px;
+  z-index: 1;
+}
+
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column {
+  float: left;
+  width: 14.28%;
+  height: 50px;
+}
+
+.row .column img {
+  height: 50px;
+  box-sizing: border-box;
+  padding: 0px;
+}
+
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+
+
+.body .container_zeda .right{
+  width: 30%;
+  min-height: 600px;
+  box-sizing: border-box;
+  padding: 0px 10px 0px 10px;
+  float: right;
+  background-color: #f2f2f2;
+}
+
+.body .container_zeda .right img{
+  width: 100%;
+  height: 292px;
+  margin-bottom: 10px;
+}
+
+.body .container_zeda .right img:hover{
+  opacity: 0.95;
+}
+
+
+
+
+
+
+
+
+.body .container_qveda{
+  width: 90%;
+  min-height: 550px;
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
+  padding: 0px;
+}
+
+.body .container_qveda .satauri{
+  width: 100%;
+  height: 50px;
+  font-size: 20px;
+  color: #1c1452;
+  background-color: white;
+  box-sizing: border-box;
+  text-align: center;
+  padding: 10px;
+  border-bottom: 1px solid;
+}
+
+.body .container_qveda .left{
+  width: 30%;
+  height: 500px;
+  background-color: white;
+  box-sizing: border-box;
+  float: left;
+}
+
+.body .container_qveda .xazi{
+  width: 100%;
+  height: 50px;
+  box-sizing: border-box;
+  border-bottom: 1px solid #1c1452;
+}
+
+.body .container_qveda  .xazi .leftside{
+  width: 50%;
+  height: 100%;
+  float: left;
+  color: #1c1452;
+  box-sizing: border-box;
+  padding: 10px;
+  border-right: 1px solid #1c1452;
+}
+
+.body .container_qveda  .xazi .rightside{
+  width: 50%;
+  height: 100%;
+  float: left;
+  color: #0066ff;
+  box-sizing: border-box;
+  padding: 10px;
+  border-right: 1px solid #1c1452;
+  text-align: center;
+}
+
+.body .container_qveda  .xazi .rightside img{
+  width: 30px;
+  height: 30px;
+}
+
+.body .container_qveda .shua{
+  width: 30%;
+  height: 500px;
+  background-color: white;
+  box-sizing: border-box;
+  float: left;
+}
+
+.body .container_qveda .right{
+  width: 40%;
+  height: 500px;
+  background-color: white;
+  box-sizing: border-box;
+  float: left;
+}
+
+.body .container_qveda .right .zeda{
+  width: 100%;
+  height: 30%;
+  background-color: white;
+  box-sizing: border-box;
+  padding: 10px;
+  color: #0066ff;
+  border-bottom: 1px solid black;
+}
+
+.body .container_qveda .right .qveda{
+  width: 100%;
+  height: 60%;
+  background-color: white;
+  box-sizing: border-box;
+}
+
+.body .favoriti1{
+  height: 20px;
+  width: 20px;
+  background-image: url('../../photo/heart.png');
+  background-size: 20px 20px;
+  float: right;
+}
+
+.body .favoriti1:hover{
+  background-image: url('../../photo/heart_hover.png');
+}
+
+.body .favoriti{
+  height: 20px;
+  width: 20px;
+  background-image: url('../../photo/heart.png');
+  background-size: 20px 20px;
+  position: relative;
+  left: 170px;
+  bottom: 250px;
+}
+
+.body .favoriti:hover{
+  background-image: url('../../photo/heart_hover.png');
+}
+
+
+
+.body .popular{
+  min-height: 355px;
+  width:90%;
+  background-color: white;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
+  padding: 0px;
+  font-size: 1vw;
+  margin-bottom: 20px;
+}
+
+.body .popular .satauri{
+  height: 70px;
+  width: 100%;
+  border-bottom: 2px solid #0066ff;
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
+  padding: 20px;
+  font-size: 1vw;
+}
+
+.body .popular .satauri h3{
+  margin: 0px;
+  color: #1b185a;
+}
+
+.body .popular  .varianti{
+  height: 250px;
+  width: 200px;
+  float: left;
+  box-shadow: 2px 2px 4px #f2f2f2;
+  box-sizing: border-box;
+  font-size: 1vw;
+  /* border: 1px solid; */
+  margin-top: 15px;
+  margin-left: 13px;
+}
+
+.body .popular  .varianti img{
+  height: 150px;
+  width: 100%;
+}
+
+.body .popular  .varianti .logo{
+  height: 20px;
+  width: 20px;
+  position: relative;
+  top: 5px;
+}
+
+.body .popular  .varianti p{
+  position: relative;
+  bottom: 10px;
+}
+
+.red{
+  color: red;
+}
+
+.body .popular  .varianti .favoriti{
+  height: 20px;
+  width: 20px;
+  background-image: url('../../photo/heart.png');
+  background-size: 20px 20px;
+  position: relative;
+  left: 170px;
+  bottom: 250px;
+}
+
+.body .popular  .varianti .favoriti:hover{
+  background-image: url('../../photo/heart_hover.png');
+}
+
+.body .popular  .variantebi{
+  height: 540px;;
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  overflow-x: auto;
+  overflow-y: auto;
+}
+
+
+
+
+
+@media only screen and (min-width: 1367px) {
+  .body .container_zeda{
+    min-height: 730px;
+  }
+  .body .container_zeda .left{
+    width: 80%;
+    min-height: 700px;
+    padding: 20px;
+  }
+
+  .body .container_zeda .left .monacemebi img{
+    width: 20px;
+    height: 20px;
+  }
+
+  .container {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 0px;
+  }
+
+  .container .mySlides img {
+    width: 100%;
+    height: 500px;
+    box-sizing: border-box;
+    padding: 0px;
+  }
+
+
+  .next {
+    left: 940px;
+    border-radius: 3px 0 0 3px;
+  }
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .column {
+    float: left;
+    width: 14.28%;
+    height: 70px;
+  }
+
+  .row .column img {
+    height: 70px;
+  }
+
+  .body .container_zeda .right{
+    width: 20%;
+    min-height: 730px;
+  }
+
+  .body .container_zeda .right img{
+    width: 100%;
+    height: 358px;
+  }
+
+  .body .popular{
+    min-height: 355px;
+    width:90%;
+    background-color: white;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+    padding: 0px;
+    font-size: 5px;
+    margin-bottom: 20px;
+  }
+
+  .body .popular  .varianti{
+    height: 250px;
+    width: 200px;
+    float: left;
+    box-shadow: 2px 2px 4px #f2f2f2;
+    box-sizing: border-box;
+    font-size: 0.83vw;
+    /* border: 1px solid; */
+    margin-top: 15px;
+    margin-left: 13px;
+  }
+}

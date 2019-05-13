@@ -1,0 +1,569 @@
+.body{
+  min-height: 1000px;
+  width: 100%;
+}
+
+.body .slaidi{
+  height: 500px;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0px;
+  margin-bottom: 20px;
+}
+
+
+.body .slaidi img{
+  height: 500px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+
+
+}
+
+.body .slidebi {
+  display:none;
+}
+
+.body .slaidi .slide-left{
+  width: 50px;
+  height: 500px;
+  float: left;
+  position: relative;
+  bottom: 50%;
+  left: 0%;
+  transform: translate(0%,-50%);
+  box-sizing: border-box;
+  padding: 230px 20px;
+}
+
+.body .slaidi .slide-right{
+  width: 50px;
+  height: 500px;
+  position: relative;
+  float: right;
+  bottom: 50%;
+  right: 0%;
+  transform: translate(0%,-50%);
+  box-sizing: border-box;
+  padding: 230px 20px;
+}
+
+.body  .change_picture:hover{
+  background-color: black;
+  opacity: 0.3;
+}
+
+.body  .change_picture:hover .symbol{
+  color: white;
+  opacity: 1;
+}
+
+
+
+
+.body .search{
+  min-height: 400px;
+  width: 80%;
+  background-color: white;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
+  padding: 20px;
+  font-size: 1vw;
+}
+
+.body .search .search_marcxena{
+  width: 30%;
+  height: 90%;
+  float: left;
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+  margin-left: 3%;
+}
+
+.body .search .search_shua{
+  width: 30%;
+  height: 90%;
+  float: left;
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+  margin-left: 2%;
+}
+
+.body .search .search_marjvena{
+  width: 30%;
+  height: 90%;
+  float: left;
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+  margin-left: 2%;
+}
+
+.body .search .search_variantebi{
+  height: 100px;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0px;
+  margin-bottom: 20px;
+}
+
+.body .search select{
+  height: 40px;
+  width: 100%;
+  font-size: 1vw;
+  box-sizing: border-box;
+  border-radius: 5px;
+  padding: 5px;
+  position: relative;
+  bottom: 10px;
+}
+
+.body .search .search_marjvena .search_variantebi .search_money{
+  height: 40px;
+  width: 30%;
+  font-size: 1vw;
+  box-sizing: border-box;
+  border-radius: 5px;
+  padding: 5px;
+  position: relative;
+  bottom: 10px;
+  float: left;
+  margin-right: 5%;
+}
+
+.body .search .search_marjvena .search_variantebi .search_money_type{
+  height: 40px;
+  width: 30%;
+  font-size: 1vw;
+  box-sizing: border-box;
+  border-radius: 5px;
+  padding: 5px;
+  position: relative;
+  bottom: 10px;
+  float: left;
+}
+
+.body .search .search_dzebna{
+  height: 100px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.body .search .search_dzebna button{
+  height: 50%;
+  width: 80%;
+  box-sizing: border-box;
+  font-size: 1vw;
+  color: white;
+  border: none;
+  background-color: #ec1b26;
+  border-radius: 10px;
+  margin-left: 10%;
+  margin-top: 25px;
+}
+
+
+
+
+
+
+.body .popular{
+  min-height: 355px;
+  width: 80%;
+  background-color: white;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
+  padding: 0px;
+  font-size: 1vw;
+  margin-bottom: 20px;
+}
+
+.body .popular .satauri{
+  height: 70px;
+  width: 100%;
+  border-bottom: 2px solid #0066ff;
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
+  padding: 20px;
+  font-size: 1vw;
+}
+
+.body .popular .satauri h3{
+  margin: 0px;
+  color: #1b185a;
+}
+
+.body .popular  .varianti{
+  height: 250px;
+  width: 200px;
+  float: left;
+  box-shadow: 2px 2px 4px #f2f2f2;
+  box-sizing: border-box;
+  font-size: 1vw;
+  /* border: 1px solid; */
+  margin-top: 15px;
+  margin-left: 13px;
+}
+
+.body .popular  .varianti img{
+  height: 150px;
+  width: 100%;
+}
+
+.body .popular  .varianti .logo{
+  height: 20px;
+  width: 20px;
+  position: relative;
+  top: 5px;
+}
+
+.body .popular  .varianti p{
+  position: relative;
+  bottom: 10px;
+}
+
+.red{
+  color: red;
+}
+
+.body .popular  .varianti .favoriti{
+  height: 20px;
+  width: 20px;
+  background-image: url('photo/heart.png');
+  background-size: 20px 20px;
+  position: relative;
+  left: 170px;
+  bottom: 235px;
+}
+
+.body .popular  .varianti .favoriti:hover{
+  background-image: url('photo/heart_hover.png');
+}
+
+.body .popular  .variantebi{
+  height: 300px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+
+/* ---------------------------------------------- */
+.variantebi{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  overflow-x: auto;
+  overflow-y: auto;
+}
+
+
+.variantebi .varianti{
+  /* transform: rotate(0deg);
+  transform:rotate(0deg) translateY(0px);
+  transform-origin: right top; */
+}
+
+
+
+
+
+
+
+.body .agent{
+  height: 500px;
+  width: 80%;
+  background-color: white;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
+  padding:  230px 0px;
+  font-size: 1vw;
+  margin-bottom: 20px;
+  background-image: url("photo/main_agent.jpg");
+  background-size: 100% 100%;
+}
+
+
+
+
+.body .agent .button{
+  height: 50px;
+  width: 15%;
+  background-color: #0066ff;
+  box-sizing: border-box;
+  padding: 15px;
+  border-radius: 10px 0px 0px 10px;
+  color: #1b185a;
+  text-align: center;
+  font-size: 1vw;
+  color: white;
+  float: left;
+  position: relative;
+  left: 35%;
+}
+
+.body .agent .button2{
+  box-sizing: border-box;
+  padding: 15px;
+  border-radius: 0px 10px 10px 0px;
+  color: #1b185a;
+  text-align: center;
+  font-size: 1vw;
+  color: white;
+  float: left;
+}
+
+
+
+.body .agent_covered{
+  height: 500px;
+  width: 80%;
+  background-color: white;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
+  padding: 0px;
+  font-size: 1vw;
+  margin-bottom: 20px;
+  background-image: url("photo/main_agent.jpg");
+  background-size: 100% 100%;
+}
+
+
+.body .agent_covered .black_div{
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: 0.6;
+  z-index: -1;
+  padding: 230px 0px;
+  box-sizing: border-box;
+
+}
+
+.body .agent_covered .conteiner{
+  height: 100%;
+  width: 100%;
+  padding: 160px 0px;
+  box-sizing: border-box;
+  position: absolute;
+  top: 1300px;
+  left: 0px;
+}
+
+.body .agent_covered   .button{
+  height: 50px;
+  width: 15%;
+  background-color: #0066ff;
+  box-sizing: border-box;
+  padding: 15px;
+  border-radius: 10px 0px 0px 10px;
+  color: #1b185a;
+  text-align: center;
+  font-size: 1vw;
+  color: white;
+  float: left;
+  position: relative;
+  left: 35%;
+}
+
+.body .agent_covered   .button2{
+  box-sizing: border-box;
+  padding: 15px;
+  border-radius: 0px 10px 10px 0px;
+  color: #1b185a;
+  text-align: center;
+  font-size: 1vw;
+  color: white;
+  float: left;
+}
+
+.body .agent_covered  .content{
+  z-index: 1;
+  opacity: 0.99;
+  height: 150px;
+  width: 30%;
+  background-color: white;
+  box-sizing: border-box;
+  padding: 5px;
+  border-radius: 10px;
+  color: #1b185a;
+  text-align: center;
+  font-size: 1vw;
+  color: white;
+  position: relative;
+  left: 35%;
+}
+
+.body .agent_covered  .content h3{
+  margin: 0px;
+  color: #1b185a;
+}
+
+.body .agent_covered  .content p{
+  margin: 0px;
+  color: #1b185a;
+}
+
+.body .agent_covered  .content a{
+  text-decoration: underline;
+}
+
+
+
+.body .agent .button:hover{
+  background-color: #ec1b26;
+}
+
+.body .agent_covered .button:hover{
+  background-color: #ec1b26;
+}
+
+
+@media only screen and (min-width: 1367px) {
+  .body{
+    min-height: 1300px;
+    width: 100%;
+  }
+
+  .body .slaidi{
+    height: 700px;
+  }
+
+
+  .body .slaidi img{
+    height: 700px;
+  }
+
+  .body .slaidi .slide-left{
+    width: 70px;
+    height: 700px;
+    padding: 350px 30px;
+  }
+
+  .body .slaidi .slide-right{
+    width: 70px;
+    height: 700px;
+    padding: 350px 30px;
+  }
+
+
+
+
+
+
+
+
+  .body .search .search_dzebna button{
+    margin-top: 17px;
+  }
+
+
+
+
+
+  .body .popular  .varianti .favoriti{
+    bottom: 245px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+  .body .agent{
+    height: 700px;
+  }
+
+  .body .agent .margin{
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 50%;
+  }
+
+
+
+
+  .body .agent .button{
+    height: 50px;
+    width: 15%;
+    background-color: #0066ff;
+    box-sizing: border-box;
+    padding: 15px;
+    border-radius: 10px 0px 0px 10px;
+    color: #1b185a;
+    text-align: center;
+    font-size: 1vw;
+    color: white;
+    float: left;
+    position: relative;
+    left: 35%;
+  }
+
+  .body .agent .button2{
+    box-sizing: border-box;
+    padding: 15px;
+    border-radius: 0px 10px 10px 0px;
+    color: #1b185a;
+    text-align: center;
+    font-size: 1vw;
+    color: white;
+    float: left;
+  }
+
+
+
+  .body .agent_covered{
+    height: 700px;
+    width: 80%;
+    background-color: white;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+    padding: 0px;
+    font-size: 1vw;
+    margin-bottom: 20px;
+    background-image: url("photo/main_agent.jpg");
+    background-size: 100% 100%;
+  }
+
+
+  .body .agent_covered .black_div{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 0.6;
+    z-index: -1;
+    padding: 230px 0px;
+    box-sizing: border-box;
+
+  }
+
+  .body .agent_covered .conteiner{
+    height: 100%;
+    width: 100%;
+    padding: 160px 0px;
+    box-sizing: border-box;
+    position: absolute;
+    top: 1630px;
+    left: 0px;
+  }
+
+}

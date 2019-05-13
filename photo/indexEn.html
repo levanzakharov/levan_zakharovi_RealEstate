@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Dream Home</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main_css.css"/>
+    <link rel="stylesheet" type="text/css" media="screen" href="css.css"/>
+    <link rel="icon" type="text/css" media="screen" href="photo/logo.png"/>
+  </head>
+  <body>
+    <div class="inglisuri" id="inglisuri">
+      <div class="menu">
+        <a href="index.html"> <img class="img1" src="photo/logo.png" alt="logo"> </a>
+        <a href="indexEn.html" target="_self" class="language english" style="background-color: #f2f2f2;"> <img class="icon" src="photo/en.jpg" alt="en"> </a>
+        <a href="index.html" target="_self" class="language georgian"> <img class="icon" src="photo/geo.jpg" alt="ge"> </a>
+        <div class="avtorizacia_registracia">
+          <a href="www/autorizacia/autorizaciaEn.html"><img class="img1 move" src="photo/logo_account.png" alt="" style="left:20px;"></a>
+        </div>
+        <div class="menu_right">
+          <a href="#" class="qvemo">Home</a>
+          <a href="#" class="qvemo">My Agent</a>
+          <div class="dropdown up">
+            <button class="dropbtn">Real Estate
+            </button>
+          <div class="dropdown-content">
+            <a href="#">House</a>
+            <a href="#">Apartment</a>
+            <a href="#">Country home</a>
+            <a href="#">Commercial place</a>
+            <a href="#">land</a>
+          </div>
+          </div>
+          <div class="dropdown1 up">
+            <button class="dropbtn1">About Us
+            </button>
+          <div class="dropdown-content1">
+            <a href="#">Contact</a>
+            <a href="#">Associates</a>
+            <a href="#">Agent</a>
+          </div>
+          </div>
+        </div>
+      </div>
+
+    <div class="body">
+      <div class="slaidi">
+        <img class="slidebi" src="photo/slaidi/1.jpg">
+        <img class="slidebi" src="photo/slaidi/2.jpg">
+        <img class="slidebi" src="photo/slaidi/3.jpg">
+        <img class="slidebi" src="photo/slaidi/4.jpg">
+        <div class="slide-left change_picture" onclick="plusDivs(-1)"><span class="symbol">&#10094;</span></div>
+        <div class="slide-right change_picture" onclick="plusDivs(1)"><span class="symbol">&#10095;</span></div>
+       </div>
+
+      <div class="search">
+         <div class="search_marcxena">
+           <div class="search_variantebi">
+             <p>Deal Type</p>
+             <select>
+               <option value="yvela_garigeba">All</option>
+               <option value="iyideba">Buy</option>
+               <option value="qiravdeba">Rent</option>
+               <option value="giravdeba">mortgaged</option>
+               <option value="qiravdeba_dgiurad">Rent a day</option>
+             </select>
+           </div>
+           <div class="search_variantebi">
+             <p>Real Estate Type</p>
+             <select>
+               <option value="yvela_udzravi">All</option>
+               <option value="saxli">Home</option>
+               <option value="bina">Apartment</option>
+               <option value="komerciulk">Commercial place</option>
+               <option value="agaraki">Country Home</option>
+               <option value="miwis_nakveti">Land</option>
+             </select>
+           </div>
+           <div class="search_variantebi">
+             <p>Status</p>
+             <select>
+               <option value="yvela_statusi">All</option>
+               <option value="saxli">Newly-built</option>
+               <option value="bina">old</option>
+               <option value="komerciulk">full refurbishing</option>
+               <option value="miwis_nakveti">under construction</option>
+             </select>
+           </div>
+         </div>
+
+         <div class="search_shua">
+           <div class="search_variantebi">
+             <p>City</p>
+             <select>
+               <option value="yvela_qalaqi">All</option>
+               <option value="tbilisi">Tbilisi</option>
+               <option value="qutaisi">Kutaisi</option>
+               <option value="batumi">Batumi</option>
+               <option value="rustavi">Rustavi</option>
+               <option value="sxva">other</option>
+             </select>
+           </div>
+           <div class="search_variantebi">
+             <p>District</p>
+             <select>
+               <option value="yvela_raioni">All</option>
+               <option value="gldani">Gldani</option>
+               <option value="didube">Didube</option>
+               <option value="vake">Vake</option>
+               <option value="isani">Isani</option>
+               <option value="krwanisi">Krwanisi</option>
+               <option value="mtawminda">Mtawminda</option>
+               <option value="nadzaladevi">Nadzaladevi</option>
+               <option value="saburtalo">Saburtalo</option>
+               <option value="samgori">Samgori</option>
+               <option value="chugureti">Chugureti</option>
+             </select>
+           </div>
+           <div class="search_variantebi">
+             <p>district</p>
+             <select>
+               <option value="yvela_ubani">all</option>
+             </select>
+           </div>
+         </div>
+
+         <div class="search_marjvena">
+           <div class="search_variantebi">
+             <p>Room</p>
+             <select>
+               <option value="yvela_otaxi">all</option>
+               <option value="otaxi_1">1</option>
+               <option value="otaxi_2">2</option>
+               <option value="otaxi_3">3</option>
+               <option value="otaxi_4">4</option>
+               <option value="otaxi_5">4+</option>
+             </select>
+           </div>
+           <div class="search_variantebi">
+             <p>Cost</p>
+             <input type="number" class="search_money" placeholder="from">
+             <input type="number" class="search_money" placeholder="to">
+             <select class="search_money_type">
+               <option value="yvela_udzravi">Lari</option>
+               <option value="saxli">Dollar</option>
+               <option value="bina">Euro</option>
+             </select>
+           </div>
+           <div class="search_dzebna">
+             <button type="button" name="button">Search</button>
+           </div>
+         </div>
+
+
+       </div>
+
+
+
+
+
+
+
+
+
+       <div class="popular">
+         <div class="satauri">
+           <h3>Popular</h3>
+         </div>
+
+
+         <div class="variantebi">
+           <a href="#">
+             <div class="varianti">
+               <img src="photo/house_photos/1.jpg" alt="bina">
+               <p>
+                 <span class="red">For rent</span> Appartment <br>
+                 <img class="logo" src="photo/lari.png" alt="logo"> 1500 GEL <br>
+                 <img class="logo" src="photo/address.png" alt="logo"> Saburtalo,Tbilisi
+               </p>
+               <div class="favoriti"></div>
+             </div>
+           </a>
+
+
+           <a href="#">
+           <div class="varianti">
+               <img src="photo/house_photos/2.jpg" alt="bina">
+               <p>
+                 <span class="red">For daily rent</span> Appartment <br>
+                 <img class="logo" src="photo/lari.png" alt="logo"> 100 GEL <br>
+                 <img class="logo" src="photo/address.png" alt="logo"> varketili,Tbilisi
+               </p>
+               <div class="favoriti"></div>
+           </div>
+           </a>
+
+           <a href="#">
+           <div class="varianti">
+             <img src="photo/house_photos/3.jpg" alt="bina">
+             <p>
+               <span class="red">For sell</span> Appartment <br>
+               <img class="logo" src="photo/lari.png" alt="logo"> 283500 GEL <br>
+               <img class="logo" src="photo/address.png" alt="logo"> vake,Tbilisi
+             </p>
+             <div class="favoriti"></div>
+           </div>
+           </a>
+
+           <a href="#">
+           <div class="varianti">
+             <img src="photo/house_photos/4.jpg" alt="bina">
+             <p>
+               <span class="red">For rent</span> Appartment <br>
+               <img class="logo" src="photo/lari.png" alt="logo"> 1380 GEL <br>
+               <img class="logo" src="photo/address.png" alt="logo"> gldani,Tbilisi
+             </p>
+             <div class="favoriti"></div>
+           </div>
+           </a>
+
+           <a href="#">
+           <div class="varianti">
+             <img src="photo/house_photos/5.jpg" alt="bina">
+             <p>
+               <span class="red">For sell</span> Appartment <br>
+               <img class="logo" src="photo/lari.png" alt="logo"> 221610 GEL <br>
+               <img class="logo" src="photo/address.png" alt="logo"> vake,Tbilisi
+             </p>
+             <div class="favoriti"></div>
+           </div>
+           </a>
+
+           <a href="#">
+           <div class="varianti">
+               <img src="photo/house_photos/6.jpg" alt="bina">
+               <p>
+                 <span class="red">For sell</span> house <br>
+                 <img class="logo" src="photo/lari.png" alt="logo"> 611799 GEL <br>
+                 <img class="logo" src="photo/address.png" alt="logo"> digomi,Tbilisi
+               </p>
+               <div class="favoriti"></div>
+           </div>
+           </a>
+
+           <a href="#">
+             <div class="varianti">
+               <img src="photo/house_photos/7.jpg" alt="bina">
+               <p>
+                 <span class="red">For sell</span> house <br>
+                 <img class="logo" src="photo/lari.png" alt="logo"> 1333500 GEL <br>
+                 <img class="logo" src="photo/address.png" alt="logo"> krwanisi,Tbilisi
+               </p>
+               <div class="favoriti"></div>
+             </div>
+           </a>
+
+           <a href="#">
+           <div class="varianti">
+             <img src="photo/house_photos/8.jpg" alt="bina">
+             <p>
+               <span class="red">For sell</span> Country house <br>
+               <img class="logo" src="photo/lari.png" alt="logo"> 1466850 GEL <br>
+               <img class="logo" src="photo/address.png" alt="logo"> tetriwyaro
+             </p>
+             <div class="favoriti"></div>
+           </div>
+           </a>
+
+           <a href="#">
+           <div class="varianti">
+             <img src="photo/house_photos/9.jpg" alt="bina">
+             <p>
+               <span class="red">For rent</span> Commercial place <br>
+               <img class="logo" src="photo/lari.png" alt="logo"> 6134 GEL <br>
+               <img class="logo" src="photo/address.png" alt="logo"> chugureti,Tbilisi
+             </p>
+             <div class="favoriti"></div>
+           </div>
+           </a>
+
+           <a href="#">
+             <div class="varianti">
+               <img style="height:240px;width:100%;" src="photo/reklama/1.jpg" id="reklama1">
+             </div>
+           </a>
+
+           <a href="#">
+           <div class="varianti">
+             <img src="photo/house_photos/10.jpg" alt="bina">
+             <p>
+               <span class="red">For rent</span> Appartment <br>
+               <img class="logo" src="photo/lari.png" alt="logo"> 589 GEL <br>
+               <img class="logo" src="photo/address.png" alt="logo">Isani,Tbilisi
+             </p>
+             <div class="favoriti"></div>
+           </div>
+           </a>
+
+           <a href="#">
+           <div class="varianti">
+             <img src="photo/house_photos/11.jpg" alt="bina">
+             <p>
+               <span class="red">For daily rent</span> Appartment <br>
+               <img class="logo" src="photo/lari.png" alt="logo"> 140 GEL <br>
+               <img class="logo" src="photo/address.png" alt="logo"> vake,Tbilisi
+             </p>
+             <div class="favoriti"></div>
+           </div>
+           </a>
+
+           <a href="#">
+           <div class="varianti">
+             <img src="photo/house_photos/12.jpg" alt="bina">
+             <p>
+               <span class="red">For rent</span> Commercial place <br>
+               <img class="logo" src="photo/lari.png" alt="logo"> 6200 GEL <br>
+               <img class="logo" src="photo/address.png" alt="logo"> Saburtalo,Tbilisi
+             </p>
+             <div class="favoriti"></div>
+           </div>
+           </a>
+
+           <a href="#">
+           <div class="varianti">
+             <img src="photo/house_photos/13.jpg" alt="bina">
+             <p>
+               <span class="red">For sell</span> Appartment <br>
+               <img class="logo" src="photo/lari.png" alt="logo"> 166000 GEL <br>
+               <img class="logo" src="photo/address.png" alt="logo"> gldani,Tbilisi
+             </p>
+             <div class="favoriti"></div>
+           </div>
+           </a>
+
+           <a href="#">
+           <div class="varianti">
+             <img src="photo/house_photos/14.jpg" alt="bina">
+             <p>
+               <span class="red">For rent</span> Appartment <br>
+               <img class="logo" src="photo/lari.png" alt="logo"> 1300 GEL <br>
+               <img class="logo" src="photo/address.png" alt="logo"> Didube,Tbilisi
+             </p>
+             <div class="favoriti"></div>
+           </div>
+           </a>
+
+           <a href="#">
+           <div class="varianti">
+             <img src="photo/house_photos/15.jpg" alt="bina">
+             <p>
+               <span class="red">For sell</span> house <br>
+               <img class="logo" src="photo/lari.png" alt="logo"> 324000 GEL <br>
+               <img class="logo" src="photo/address.png" alt="logo"> Gorashvili,Qobuleti
+             </p>
+             <div class="favoriti"></div>
+           </div>
+           </a>
+
+           <a href="#">
+           <div class="varianti">
+             <img src="photo/house_photos/16.jpg" alt="bina">
+             <p>
+               <span class="red">For sell</span> Country house <br>
+               <img class="logo" src="photo/lari.png" alt="logo"> 400000 GEL <br>
+               <img class="logo" src="photo/address.png" alt="logo"> Bazaleti,Dusheti
+             </p>
+             <div class="favoriti"></div>
+           </div>
+           </a>
+
+           <a href="#">
+           <div class="varianti">
+             <img src="photo/house_photos/17.jpg" alt="bina">
+             <p>
+               <span class="red">For sell</span> Appartment <br>
+               <img class="logo" src="photo/lari.png" alt="logo"> 159600 GEL <br>
+               <img class="logo" src="photo/address.png" alt="logo"> vake,Tbilisi
+             </p>
+             <div class="favoriti"></div>
+           </div>
+           </a>
+
+           <a href="#">
+           <div class="varianti">
+             <img src="photo/house_photos/18.jpg" alt="bina">
+             <p>
+               <span class="red">For sell</span> Land <br>
+               <img class="logo" src="photo/lari.png" alt="logo"> 24000 GEL <br>
+               <img class="logo" src="photo/address.png" alt="logo"> Gardabani
+             </p>
+             <div class="favoriti"></div>
+           </div>
+           </a>
+
+           <a href="#">
+           <div class="varianti">
+             <img src="photo/house_photos/19.jpg" alt="bina">
+             <p>
+               <span class="red">For rent</span> Country house<br>
+               <img class="logo" src="photo/lari.png" alt="logo"> 2000 GEL <br>
+               <img class="logo" src="photo/address.png" alt="logo"> Bakuriani
+             </p>
+             <div class="favoriti"></div>
+           </div>
+           </a>
+
+           <a href="#">
+             <div class="varianti">
+               <img style="height:240px;width:100%;" src="photo/reklama/2.jpg" id="reklama2">
+             </div>
+           </a>
+
+           <a href="#">
+           <div class="varianti">
+               <img src="photo/house_photos/2.jpg" alt="bina">
+               <p>
+                 <span class="red">For daily rent</span> Appartment <br>
+                 <img class="logo" src="photo/lari.png" alt="logo"> 100 GEL <br>
+                 <img class="logo" src="photo/address.png" alt="logo"> varketili,Tbilisi
+               </p>
+               <div class="favoriti"></div>
+           </div>
+           </a>
+
+           <a href="#">
+           <div class="varianti">
+             <img src="photo/house_photos/20.jpg" alt="bina">
+             <p>
+               <span class="red">For sell</span> house <br>
+               <img class="logo" src="photo/lari.png" alt="logo"> 439000 GEL <br>
+               <img class="logo" src="photo/address.png" alt="logo"> Didgori,Tbilisi
+             </p>
+             <div class="favoriti"></div>
+           </div>
+           </a>
+         </div>
+          </div>
+
+
+
+
+
+
+
+
+
+
+
+
+      <div class="agent" id="agent_uncover">
+        <div class="margin">
+          <a href="#">
+            <div class="button">
+              Agent Search
+            </div>
+          </a>
+          <!-- <a href="#"> -->
+            <div class="button button2" onclick="agentCover()">
+              More
+            </div>
+          <!-- </a> -->
+        </div>
+      </div>
+
+      <div class="agent_covered" id="agent_cover" style="display: none;">
+        <div class="black_div">
+          </div>
+        <div class="conteiner">
+          <div class="content">
+            <h3>Real Estate Agent</h3>
+            <p>The real estate agent can help you find your dream home. If you do not have an agent you can choose the link below.</p>
+            <a href="#">Read more</a>
+
+          </div>
+          <a href="#">
+          <div class="button">
+            Agent Search
+          </div>
+          </a>
+          <div class="button button2" onclick="agentUnCover()">
+            return back
+          </div>
+        </div>
+
+
+      </div>
+
+
+     </div>
+
+
+
+
+    <div class="foot">
+      <div class="margin" style="width: 700px;">
+        <div class="foot_menu">
+          <p>
+            <b>Menu</b><br><br>
+            <a href="#">Home</a><br>
+            <a href="#">My Agent</a><br>
+            <a href="#">About Us</a><br>
+            <a href="#">Real Estate</a>
+          </p>
+        </div>
+        <hr width="1" size="150" class="foot_xazi">
+        <div class="foot_menu ">
+          <p>
+            <b>Real Estate Type</b><br><br>
+            <a href="#">apartment</a><br>
+            <a href="#">House</a><br>
+            <a href="#">Commercial place</a><br>
+            <a href="#">Country Home</a><br>
+            <a href="#">Land</a>
+          </p>
+        </div>
+        <hr width="1" size="150" class="foot_xazi">
+        <div class="foot_menu">
+          <p>
+            <b>About Us</b><br><br>
+            <a href="#">Contact</a><br>
+            <a href="#">Associates</a><br>
+            <a href="#">Agent</a>
+          </p>
+        </div>
+        <hr width="1" size="150" class="foot_xazi">
+        <div class="foot_menu">
+          <p>
+            <b>Social</b><br><br>
+            <a href="#">Facebook</a><br>
+            <a href="#">Instagram</a><br>
+            <a href="#">Linkedin</a><br>
+            <a href="#">Google+</a>
+          </p>
+        </div>
+      </div>
+    </div>
+    </div>
+
+    <script src="js.js"></script>
+
+  </body>
+</html>
